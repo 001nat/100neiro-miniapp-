@@ -1,1 +1,8 @@
-{"name": "100Neiro"}
+{
+  "name": "100Нейро",
+  "short_name": "100Нейро",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
