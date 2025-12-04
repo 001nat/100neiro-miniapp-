@@ -46,7 +46,8 @@ p {
 
 /* === Ссылки как у Братухи (iOS дизайн) === */
 a {
-    font-size: 32px;
+    font-size: 40px;
+    margin-bottom: 18px;
     color: #1b7ff0;
     text-decoration: none;
 }
