@@ -1,66 +1,97 @@
+/* ---------- БАЗОВЫЕ НАСТРОЙКИ ---------- */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: #fff;
     margin: 0;
     padding: 20px;
+    background: #ffffff;
     color: #111;
-    font-size: 17px; /* увеличенный шрифт */
-    line-height: 1.55; /* как у Bratuha */
+    font-size: 17px;
+    line-height: 1.55;
 }
 
+/* ---------- ТЕГ-ЗНАЧОК (вверху страницы) ---------- */
+.tag {
+    display: inline-block;
+    background: #f2f2f7;
+    color: #555;
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+/* ---------- ЗАГОЛОВКИ ---------- */
 h1 {
     font-size: 26px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
 }
 
 h2 {
     font-size: 22px;
     font-weight: 700;
     margin-top: 32px;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
 }
 
 h3 {
-    font-size: 19px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 600;
     margin-top: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
-p, li {
+/* ---------- ТЕКСТ ---------- */
+p {
     font-size: 17px;
+    margin: 16px 0;
     line-height: 1.55;
 }
 
-ul {
-    padding-left: 22px;
+b, strong {
+    font-weight: 700;
 }
 
+/* ---------- СПИСКИ ---------- */
+ul {
+    padding-left: 22px;
+    margin-top: 8px;
+    margin-bottom: 18px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+/* ---------- ССЫЛКИ ---------- */
 a {
-    color: #1a73e8;
+    color: #007aff;
     text-decoration: none;
+    font-weight: 500;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-/* Серая карточка "Быстрый переход" */
+/* ---------- КАРТОЧКА «БЫСТРЫЙ ПЕРЕХОД» ---------- */
 .card {
-    background: #f1f3f5;
-    border-radius: 16px;
+    background: #f2f2f7;
+    border-radius: 14px;
     padding: 18px 20px;
-    margin: 25px 0;
+    margin: 22px 0;
 }
 
-/* Маленький серый тег наверху */
-.tag {
-    display: inline-block;
-    background: #eef2f5;
-    padding: 6px 12px;
-    border-radius: 10px;
-    font-size: 15px;
-    margin-bottom: 12px;
+.card h3 {
+    margin-top: 0;
 }
+
+/* ---------- КАРТИНКИ ---------- */
+img, video {
+    width: 100%;
+    border-radius: 12px;
+    margin: 16px 0;
+}
+
 
