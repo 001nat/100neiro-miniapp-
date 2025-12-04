@@ -1,96 +1,92 @@
-/* ---------- БАЗОВЫЕ НАСТРОЙКИ ---------- */
+/* === Сброс браузерных стилей === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* === Глобальный стиль страницы === */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background: #ffffff;
+    background-color: #ffffff;
     color: #111;
-    font-size: 17px;
-    line-height: 1.55;
+    font-size: 17px;            /* Тот самый iOS размер */
+    line-height: 1.6;
+    padding: 22px;              /* Отступы как в Братухе */
+    max-width: 760px;
+    margin: 0 auto;
 }
 
-/* ---------- ТЕГ-ЗНАЧОК (вверху страницы) ---------- */
-.tag {
-    display: inline-block;
-    background: #f2f2f7;
-    color: #555;
-    padding: 6px 12px;
-    border-radius: 12px;
-    font-size: 14px;
-    margin-bottom: 12px;
-}
-
-/* ---------- ЗАГОЛОВКИ ---------- */
+/* === Заголовки как у Bratuha === */
 h1 {
     font-size: 26px;
     font-weight: 700;
-    margin: 0 0 20px 0;
-}
-
-h2 {
-    font-size: 22px;
-    font-weight: 700;
-    margin-top: 32px;
-    margin-bottom: 16px;
-}
-
-h3 {
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 14px;
-}
-
-/* ---------- ТЕКСТ ---------- */
-p {
-    font-size: 17px;
-    margin: 16px 0;
-    line-height: 1.55;
-}
-
-b, strong {
-    font-weight: 700;
-}
-
-/* ---------- СПИСКИ ---------- */
-ul {
-    padding-left: 22px;
-    margin-top: 8px;
     margin-bottom: 18px;
 }
 
-li {
-    margin-bottom: 10px;
-    font-size: 17px;
+h2 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 26px;
+    margin-bottom: 12px;
 }
 
-/* ---------- ССЫЛКИ ---------- */
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* === Абзацы === */
+p {
+    margin-bottom: 16px;
+    font-size: 17px;
+    color: #222;
+}
+
+/* === Ссылки как у Братухи (iOS дизайн) === */
 a {
-    color: #007aff;
+    color: #1b7ff0;
     text-decoration: none;
-    font-weight: 500;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-/* ---------- КАРТОЧКА «БЫСТРЫЙ ПЕРЕХОД» ---------- */
+/* === Списки === */
+ul {
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* === Серые карточки как у Bratuha === */
 .card {
-    background: #f2f2f7;
-    border-radius: 14px;
+    background: #f3f4f6;
+    border-radius: 16px;
     padding: 18px 20px;
-    margin: 22px 0;
+    margin: 20px 0;
 }
 
-.card h3 {
-    margin-top: 0;
+/* === Маленький тег сверху (🖼, ✨, 🎵) === */
+.tag {
+    display: inline-block;
+    font-size: 15px;
+    background: #eef0f3;
+    padding: 6px 12px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    color: #333;
 }
 
-/* ---------- КАРТИНКИ ---------- */
-img, video {
-    width: 100%;
-    border-radius: 12px;
+/* === Изображения в MiniApp === */
+img {
+    max-width: 100%;
+    border-radius: 14px;
     margin: 16px 0;
 }
 
