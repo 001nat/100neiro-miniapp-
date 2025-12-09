@@ -87,7 +87,8 @@ li {
 
 /* === Изображения в MiniApp === */
 img {
-    max-width: 150%;
-    border-radius: 14px;
-    margin: 16px 150px;
+   width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
