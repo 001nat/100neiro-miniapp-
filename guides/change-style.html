@@ -65,6 +65,16 @@
         Вы можете отправить сразу несколько фотографий на обработку, которая займет около 10 секунд. Вот и все, желаем удачного использования!
     </p>
 
+
     <script src="../assets/script.js"></script>
+<script>
+    const platform = Telegram.WebApp.platform;
+
+    // Android и desktop — уменьшаем масштаб
+    if (platform === "android" || platform === "tdesktop") {
+        document.body.classList.add("android-scale");
+    }
+</script>
+
 </body>
 </html>

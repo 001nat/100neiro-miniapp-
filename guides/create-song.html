@@ -31,6 +31,16 @@
     <h2 id="length">3. Что вы получите</h2>
     <p>Бот пришлёт аудиофайл, который можно скачать и использовать как фон, идею для трека или просто для вдохновения.</p>
 
+
     <script src="../assets/script.js"></script>
+<script>
+    const platform = Telegram.WebApp.platform;
+
+    // Android и desktop — уменьшаем масштаб
+    if (platform === "android" || platform === "tdesktop") {
+        document.body.classList.add("android-scale");
+    }
+</script>
+
 </body>
 </html>

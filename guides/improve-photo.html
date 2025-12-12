@@ -112,6 +112,16 @@
     <p>
         <img src="../assets/activation.jpg" alt="Активация" />
     </p>
-    <script src="../assets/script.js"></script>
+
+<script>
+    const platform = Telegram.WebApp.platform;
+
+    // Android и desktop — уменьшаем масштаб
+    if (platform === "android" || platform === "tdesktop") {
+        document.body.classList.add("android-scale");
+    }
+</script>
+
+
 </body>
 </html>

@@ -162,6 +162,15 @@ Runway 720p за 15 рублей имеет хорошее разрешение 
     Надеемся, мы смогли максимально доступно и просто описать как оживлять фотографии, и у вас не осталось вопросов.
 </p>
 
+<script>
+    const platform = Telegram.WebApp.platform;
+
+    // Android и desktop — уменьшаем масштаб
+    if (platform === "android" || platform === "tdesktop") {
+        document.body.classList.add("android-scale");
+    }
+</script>
+
 
 </body>
 </html>
