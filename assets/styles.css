@@ -126,8 +126,8 @@ img {
 
 /* === Масштаб для Android и Windows (уменьшаем гигантские шрифты) === */
 .android-scale {
-    transform: scale(0.3);
+    transform: scale(0.2);
     transform-origin: top left;
-    width: 220%;
+    width: 250%;
 }
 
