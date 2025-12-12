@@ -122,3 +122,11 @@ img {
     border-radius: 0.875rem;
     margin: 1rem 0;
 }
+
+/* === Масштаб для Android и Windows (уменьшаем гигантские шрифты) === */
+.android-scale {
+    transform: scale(0.78);
+    transform-origin: top left;
+    width: 128%;
+}
+
